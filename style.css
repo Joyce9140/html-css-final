@@ -160,7 +160,7 @@
     grid-area: left-handed;
 }
 
-.list{
+.list2{
     display:grid;
     grid-template-columns: 8fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -300,9 +300,17 @@ div.menus{
 
 .table{
     padding-top: 2rem;
-    
- 
+    display: grid;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 0.3fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "m t w th f"
+    "MF TF WF THF FF"
+    "MS TS WS THS FS"
+    "MT TT WT THT FT"
+    "WB1 WB2 WB3 WB4 WB5";
 }
+
 #Mon{
     grid-area: m;
 }
