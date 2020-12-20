@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding:0;
-    
 }
 
 /* ethan-jessie-1 */
@@ -422,12 +421,11 @@ div.menus{
 
 .all{
     display: grid;
-    grid-template-rows: 0.8fr 4fr;
+    grid-template-rows: 0.5fr 5fr;
     grid-template-columns: 0.8fr 4fr;
     grid-template-areas: 
-    "LS T T T T"
-    "LS RS RS RS RS";
-    height: 100vh;
+    "LS T"
+    "LS RS";
 }
 
 /* ashley-livia-1: top */
@@ -447,6 +445,7 @@ div.menus{
 
 .top > img{
     margin-left: 0.5rem;
+    width: 2.5rem;
 }
 
 #GPA {
@@ -568,4 +567,805 @@ div.menus{
     width: 2rem;
     padding-right: 1rem;
 }
+
+.arrow{
+    background-color: #091868;
+    transform: translate(85.9rem, -43rem);
+    width: 2vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow > img{
+    width: 1vw;
+}
+
+/* ashley-livia-2*/
+/* ashley-livia-2: layout*/
+.all2{
+    display: grid;
+    grid-template-rows: 0.5fr 4fr;
+    grid-template-columns: 0.8fr 4fr;
+    grid-template-areas: 
+    "LS T"
+    "LS MB";
+}
+
+/* ashley-livia-2: major*/
+.icon{
+    display:flex;
+    align-items: center;
+    padding-left: 4rem;
+    padding-top: 1.3rem;
+    grid-area: icon;
+}
+
+#first{
+    padding-top: 3.5rem;
+}
+
+td > img{
+    width: 2.5rem;
+}
+
+.name{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+
+}
+
+.major-body{
+    display: grid;
+    grid-area: MB;
+    grid-template-rows: 3fr;
+    grid-template-columns: 0.8fr 2.5fr;
+    grid-template-areas: 
+    "NL CB";
+
+    background-color: #054CBF;
+}
+
+.name-list{
+    grid-area: NL;
+}
+
+.chat-box{
+    display:flex;
+    margin-top: 1.5rem;
+    /* margin-bottom: 0.5rem; */
+    margin-left: 1rem;
+    margin-right: 8rem;
+    border: 0.3rem solid #091868;
+
+    display: grid;
+    grid-area: CB;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 5fr;
+    grid-template-areas: 
+    "person"
+    "chat";
+}
+
+.person{
+    grid-area: person;
+    border-bottom: 0.3rem solid #091868;
+
+
+    display:flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+
+}
+
+.person > img{
+}
+
+.chat{
+    grid-area: chat;
+}
+
+.BI{
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.BI > img{
+    width: 50px;
+    height: 50px;
+}
+
+#line1{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top: 2rem;
+    margin-right:1rem;
+}
+
+#line1 > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px soild none;
+    border-radius: 50px;
+    background-color: #091868;
+    width: 10rem;
+    height: 2.3rem;
+    margin-right: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#line2{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 1rem;
+    margin-left:1rem;
+}
+
+#line2 > img {
+    width: 50px;
+    height: 50px;
+}
+
+#line2 > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px soild none;
+    border-radius: 50px;
+    background-color: #091868;
+    width: 8rem;
+    height: 2.3rem;
+    margin-left: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#line3{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 1rem;
+    margin-left:1rem;
+}
+
+#line3 > img {
+    width: 50px;
+    height: 50px;
+}
+
+#line3 > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px soild none;
+    border-radius: 50px;
+    background-color: #091868;
+    width: 19rem;
+    height: 2.3rem;
+    margin-left: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#line4{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top: 1rem;
+    margin-right:1rem;
+}
+
+#line4 > img {
+    width: 50px;
+    height: 50px;
+}
+
+#line4 > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px soild none;
+    border-radius: 50px;
+    background-color: #091868;
+    width: 10rem;
+    height: 2.3rem;
+    margin-right: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#line5{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top: 1rem;
+    margin-right:1rem;
+}
+
+#line5 > img {
+    width: 50px;
+    height: 50px;
+}
+
+#line5 > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px soild none;
+    border-radius: 50px;
+    background-color: #091868;
+    width: 19rem;
+    height: 2.3rem;
+    margin-right: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow2{
+    background-color: #091868;
+    transform: translate(71.3rem, -20rem);
+    width: 2vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow2 > img{
+    width: 1vw;
+    z-index: 3;
+}
+
+.control{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.control > img{
+    width: 2.2rem;
+    height: 2rem;
+    padding-top: 0.5rem;
+}
+
+.control > p{
+    color: #36459c;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px soild none;
+    border-radius: 50px;
+    background-color: #091868; 
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    width: 18rem;
+    height: 2rem;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* ping-yusun-1 */
+/* ping-yusun-1: layout*/
+.whole{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 5fr;
+    grid-template-areas: 
+    "L R";
+
+    height: 100vh;
+}
+
+.left-hand{
+    grid-area: L;
+}
+
+.right-hand{
+    grid-area: R;
+    background-color: #73E0CE;
+
+}
+
+/* ping-yusun-1: left-hand*/
+.top-left{
+    display: flex;
+    align-items: center;
+    margin-left: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.top-left > img{
+    width: 2.3vw;
+}
+
+.top-left > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.middle-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 5rem;
+}
+
+.announcement{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.middle-top > img{
+    width: 5vw;
+    padding-right: 2rem;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 1rem;
+    padding-left: 4rem; 
+}
+
+.middle > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.middle > img{
+    width: 8vw;
+    padding-left: 1rem;
+}
+
+.arrow3 {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 2rem;
+    height: 2rem;
+    margin: 2rem;
+
+  }
+  
+.to-right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.to-left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.TRT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10rem;
+    padding-left: 30rem;
+    padding-top: 2rem;
+}
+
+.round{
+    border: 1px solid none;
+    border-radius: 50px;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-left: 1.5rem;
+}
+
+.C2{
+    background-color: #F58500;
+}
+
+.C3{
+    background-color: #73E0CE;
+}
+
+.C4{
+    background-color: #F58500;
+}
+
+.bottom{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr;
+    grid-template-areas: 
+    "BT"
+    "BD";
+
+}
+.bottom-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 4rem;
+    padding-left: 9rem;
+    grid-area: BT;
+}
+
+.bottom-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    grid-area: BD;
+    padding-left: 8rem;
+    padding-top: 2rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-right: 5.5rem;
+    font-size: 1.2rem;
+    
+}
+
+.button > img{
+    width: 3.5vw;
+    padding-right: 1rem;
+}
+
+.item2-WS{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr;
+    grid-template-areas: 
+    "W"
+    "S";
+    
+}
+
+.item2 > img{
+    transform: translate(0rem, -0.5rem);
+}
+
+#Weekly{
+    grid-area: W;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#Schedule{
+    grid-area: S;
+}
+
+
+/* ping-yusun-1: right-hand */
+#baymax{
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 1rem;
+}
+
+#baymax > img{
+    width: 5vw;
+}
+
+.listed-events{
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+ul.events{
+    list-style-type: circle;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.events{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    font-size: 1.2rem;
+}
+
+.item{
+    padding-bottom: 0.5rem;
+}
+
+.back{
+    border: 0px solid #F58500;
+    border-radius: 50px;
+    background-color: #F4B30C;
+    width: 4rem;
+    height: 1rem;
+    transform: translate(2.2rem, 1.2rem);
+
+}
+
+.month2 > p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 2;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.block{
+    border: 0.2rem solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0.7rem;
+    width: 10rem;
+    margin-left: 2.3rem;
+    margin-right: 2.5rem;
+    margin-top: 2rem;
+    
+    display: grid;
+     grid-template-rows: 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-areas: 
+     "Oct Oct non non non non non"
+     "Mon Tues Wed Th Fri Sta Sun"
+     "D1 D2 D3 D4 D5 D6 D7"
+     "D8 D9 D10 D11 D12 D13 D14"
+     "D15 D16 D17 D18 D19 D20 D21"
+     "D22 D23 D24 D25 D26 D27 D28"
+     "D29 D30 D31 non2 non2 non2 non2";
+}
+
+.mon{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.block > h3{
+    grid-area: Oct;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.block > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+.none{
+    grid-area: non;
+}
+
+#M{
+    grid-area: Mon;
+}
+
+#T{
+    grid-area: Tues;
+}
+
+#Wed{
+    grid-area: Wed;
+}
+
+#Th{
+    grid-area: Th;
+}
+
+#F{
+    grid-area: Fri;
+}
+
+#S{
+    grid-area: Sta;
+}
+
+#Sun{
+    grid-area: Sun;
+}
+
+#D1{
+    grid-area: D1;
+}
+
+#D2{
+    grid-area: D2;
+}
+
+#D3{
+    grid-area: D3;
+}
+
+#D4{
+    grid-area: D4;
+}
+
+#D5{
+    grid-area: D5;
+}
+
+#D6{
+    grid-area: D6;
+}
+
+#D7{
+    grid-area: D7;
+}
+
+#D8{
+    grid-area: D8;
+}
+
+#D9{
+    grid-area: D9;
+}
+
+#D10{
+    grid-area: D10;
+}
+
+#D11{
+    grid-area: D11;
+}
+
+#D12{
+    grid-area: D12;
+}
+
+#D13{
+    grid-area: D13;
+}
+
+#D14{
+    grid-area: D14;
+}
+
+#D15{
+    grid-area: D15;
+}
+
+#D16{
+    grid-area: D16;
+}
+
+#D17{
+    grid-area: D17;
+}
+
+#D18{
+    grid-area: D18;
+}
+
+
+#D19{
+    grid-area: D19;
+}
+
+
+#D20{
+    grid-area: D20;
+}
+
+#D21{
+    grid-area: D21;
+}
+
+#D22{
+    grid-area: D22;
+}
+
+#D23{
+    grid-area: D23;
+}
+
+#D24{
+    grid-area: D24;
+}
+
+#D25{
+    grid-area: D25;
+}
+
+#D26{
+    grid-area: D26;
+}
+
+#D27{
+    grid-area: D27;
+}
+
+#D28{
+    grid-area: D28;
+}
+
+#D29{
+    grid-area: D29;
+}
+
+#D30{
+    grid-area: D30;
+}
+
+#D31{
+    grid-area: D31;
+}
+
+.none2{
+    grid-area: non2;
+}
+
+.note > p{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 2;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-weight: bold;
+}
+
+.back2{
+    border: 0px solid #F58500;
+    border-radius: 50px;
+    background-color: #FF6F6F;
+    width: 3rem;
+    height: 1rem;
+    transform: translate(2.2rem, 1.3rem);
+}
+
+.block2{
+    border: 0.2rem solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0.7rem;
+    width: 10rem;
+    margin-left: 2.3rem;
+    margin-right: 2.5rem;
+    margin-top: 2rem;
+    height: 3rem;
+}
+
+.block2 > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 
