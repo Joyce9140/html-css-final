@@ -1176,6 +1176,7 @@ ul.events{
 .block > p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
+    font-weight: bold;
 }
 
 .none{
@@ -1511,6 +1512,7 @@ ul.events{
     transform: translate(0rem, 2.395rem);
 }
 
+/* ping-yusun-2: .side-note */
 .side-note{
     width: 5vw;
     height: 5vh;
@@ -1518,6 +1520,7 @@ ul.events{
     border: 0.2rem solid black;
     border-radius: 0.6rem;
     margin-top: 26rem;
+    margin-left: -1.5rem;
 
     display: flex;
     justify-content: center;
@@ -1603,6 +1606,341 @@ ul.events{
     font-weight: bold;
     transform: translate(-13rem, 29rem); 
 }
+
+
+/* ping-yusun-3 */
+#HN{
+    width: 95vw;
+}
+/* ping-yusun-3: topic*/
+#T2{
+    padding-left: 15rem;
+    transform: translate(0rem, -3rem);
+}
+
+/* ping-yusun-3: ping*/
+.ping{
+    width: 28vw;
+    height: 5vh;
+    z-index: 2;
+    padding-left: 6rem;
+    position: absolute;
+
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.earth-line{
+    width: 2vw;
+    height: 10vh;
+    border: 0.15rem solid black;
+    border-radius: 50px;
+    background-color: #e2d69b;
+    transform: translate(9rem, -1.5rem);
+}
+
+/* ping-yusun-3: package */
+.package{
+    width: 28vw;
+    height: 65vh;
+    border: 0.25rem solid black;
+    border-radius: 2rem;
+    background-color: #73E0CE;
+    margin-left: 15rem;
+    margin-top: 0.5rem;
+}
+
+.package > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding-top: 2rem;
+
+    display: flex;
+    justify-content: center;;
+}
+
+#block{
+    border: 0.2rem solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0.7rem;
+    width: 10rem;
+    margin-left: 6.5rem;
+    margin-right: 2.5rem;
+    margin-top: 2rem;
+    padding: 0.7rem;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Mon Tues Wed Th Fri Sta Sun"
+    "D1 D2 D3 D4 D5 D6 D7"
+    "D8 D9 D10 D11 D12 D13 D14"
+    "D15 D16 D17 D18 D19 D20 D21"
+    "D22 D23 D24 D25 D26 D27 D28"
+    "D29 D30 D31 non2 non2 non2 non2";
+}
+
+#block > p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+
+.HL1{
+    background-color: #FFDC1D;
+    border: 0px solid black;
+    border-radius: 0.2rem;
+    width: 1.1vw;
+    height: 2.5vh;
+}
+
+.HL2{
+    background-color: #FF6F6F;
+    border: 0px solid black;
+    border-radius: 0.2rem;
+    width: 1.1vw;
+    height: 2.5vh;
+}
+
+.HL3{
+    background-color: #F4B30C;
+    border: 0px solid black;
+    border-radius: 0.2rem;
+    width: 1.1vw;
+    height: 2.5vh;
+}
+
+.box2{
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    background-color: white;
+    margin: 1rem;
+    width: 25vw;
+}
+
+.sub-information{
+    display: flex;
+    padding: 0.5rem;
+}
+
+.number{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.event{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#N1{
+    margin-left: 1rem;
+    border: 0px solid black;
+    border-radius: 0.2rem;
+    width: 1.5vw;
+    height: 2.5vh;
+    background-color: #FFDC1D;
+}
+
+#N2{
+    margin-left: 1rem;
+    border: 0px solid black;
+    border-radius: 0.2rem;
+    width: 1.5vw;
+    height: 2.6vh;
+    background-color: #FF6F6F;
+}
+
+#N3{
+    margin-left: 1rem;
+    border: 0px solid black;
+    border-radius: 0.2rem;
+    width: 1.5vw;
+    height: 2.6vh;
+    background-color: #F4B30C;
+}
+
+/* ping-yusun-3: holiday */
+.holiday{
+    border: 0.2rem solid black;
+    border-radius: 20px;
+    background-color: white;
+    width: 10vw;
+    padding: 0.5rem;
+    transform: translate(38rem, -24rem);
+    position: absolute;
+    z-index: 2;
+}
+
+.particular{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+
+.H1{
+    display: flex;
+}
+
+.H1 > img{
+    width: 3vw;
+    height: 3vh;
+    transform: rotate(350deg);
+    padding: 0.3rem;
+}
+
+/* ping-yusun-3: months */
+.box3{
+    border: 0.2rem solid black;
+    border-radius: 1.5rem;
+    width: 4vw;
+    height: 13vh;
+    padding: 1rem;
+    margin: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.full-moon{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+}
+
+.year{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.months{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas:
+    "non3 thing1 thing2 thing3"
+    "thing4 thing5 thing6 thing7"
+    "thing8 thing9 thing10 thing11";
+
+    width: 20vw;
+    height: 30vh;
+    transform: translate(43em, -26em);
+    position: absolute;
+    z-index: 2;
+
+}
+
+.non3{
+    width: 4vw;
+    height: 13vh;
+    padding: 1rem;
+    grid-area: non3;
+    margin: 0.5rem;
+}
+
+#thing1{
+    grid-area: thing1;
+}
+
+#thing2{
+    grid-area: thing2;
+}
+
+#thing3{
+    grid-area: thing3;
+}
+
+#thing4{
+    grid-area: thing4;
+}
+
+#thing5{
+    grid-area: thing5;
+}
+
+#thing6{
+    grid-area: thing6;
+}
+
+#thing7{
+    grid-area: thing7;
+}
+
+#thing8{
+    grid-area: thing8;
+}
+
+#thing9{
+    grid-area: thing9;
+}
+
+#thing10{
+    grid-area: thing10;
+}
+
+#thing11{
+    grid-area: thing11;
+}
+
+.back3{
+    border: 0rem solid black;
+    border-radius: 1.5rem;
+    width: 4vw;
+    height: 13vh;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+#BK1{
+    background-color: #FF6F6F;
+    transform: translate(49rem, -27rem);
+}
+
+#BK2{
+    background-color: #FFDC1D;
+    transform: translate(58rem, -34.7rem);
+}
+
+#BK3{
+    background-color: #73E0CE;
+    transform: translate(65rem, -40.2rem);
+}
+
+#BK4{
+    background-color: #FF6F6F;
+    transform: translate(44rem, -41.5rem);
+}
+
+#BK5{
+    background-color: #FFDC1D;
+    transform: translate(64.7rem, -47rem);
+}
+
+.back4 > img{
+    width: 16.3vw;
+    transform: translate(43.5rem, -46rem);
+}
+
+/* ping-yusun-3: side-note */
+#SN{
+    margin-top: -38rem;
+    margin-left: -1.5rem;
+}
+
 
 
 
